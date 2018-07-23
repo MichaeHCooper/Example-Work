@@ -8,7 +8,7 @@ Aurthor: Michael Cooper.
 
 import numpy as np
 import matplotlib.pyplot as plt
-import Geomgen
+import FEA2DGeomgen as Geomgen
 
 ###############################################################################
 
