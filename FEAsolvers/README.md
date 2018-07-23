@@ -1,1 +1,7 @@
 Two Programs here, one of them is a basic 2D plate element solver, the other a bare bones 3D thick beam solver.
+
+I created the 2D program off the back of an old text book so that I could learn the very basics of structural FEA, comically the book was so old it demonstrated the code in fortran.  The program comes with a seperate program I used to simplistically generate some geometry to test, namely a cantelever beam.  An image of the output has also been uploaded.  Ultimately using a sligtly modified version and some crafty skills in making my own version of pyplot I managed to get it working on my mobile phone!
+
+The 3D program while it appears simpler is much more sophisticated than the 2D program.  This one solves for general 3D thick beams, including torsion.  The program was validated aginst commercial software (Midas) and proved to be faster and more accurate.  The reason for the accuracy increase over Midas is down to the way numpy solves indeterminate matricies using psedo inverse.  I found that my software gave the exact results from hand calculated statically indeterminate examples, which Midas did not.  In addition as my python skill got much better, I got much more fammiliar with using numpy indexing, this leads to much better matrix assembly.
+
+For the 3D program my linear algebra improved substantially, having to deal in a much more abstract ways, especially with matrix rotation ect.
