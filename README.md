@@ -4,3 +4,5 @@ Examples of my coding work to any prospective employers.  I've got most of the k
 I've also uploaded some of my engineering design work for anyone interested in my structural engineering capabilities as I've linked my git to my CV.
 
 If you want to try a program the best one would be the demo for my dissertation, this one is the easiest to set up.
+
+Please feel free to download and try my software, however if you intend to use any of it for your own purposes please ask permission.
