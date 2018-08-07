@@ -6,3 +6,7 @@ I've also uploaded some of my engineering design work for anyone interested in m
 If you want to try a program the best one would be the demo for my dissertation, this one is the easiest to set up.
 
 Please feel free to download and try my software, however if you intend to use any of it for your own purposes please ask permission.
+
+# ** Update ** I'm now doing some C#
+
+Okidoke so in order to get some more experience outside of python, I've embarked on a journey to learn C# in combination with Unity.  Sofar so good, I've made a lovely n-body demonstration in all three glorious dimensions (technically 4 with time).  I built my own physics engine to do this so that I can add more complex things such as relatvity and higher order integration at a later date!
