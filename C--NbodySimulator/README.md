@@ -1,0 +1,1 @@
+Okay so as stated in the main readme, I've been working on a n-body simulator within unity using my own game engine.  I've uploaded the raw code for the nbody simulator direct and the application itself to github.  Expect lots of updates in the future as I add more features to try and turn it from a GUIless simulator into a game!
