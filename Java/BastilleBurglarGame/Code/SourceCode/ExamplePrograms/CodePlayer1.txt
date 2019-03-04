@@ -1,0 +1,46 @@
+# Zigzag program from top right.
+
+y = 0
+conditionY = 6
+
+while y < conditionY
+
+  x = 0
+  conditionX = 8
+
+  while x < conditionX
+    left
+    x + 1
+    if bot in CR
+      print bot detected in tile to the right
+      up
+      left
+      left
+      down
+      conditionX - 2
+    end if
+  end loop
+
+  down
+  conditionX = 8
+
+  x = 0
+  while x < conditionX
+    right
+    x + 1
+    if bot in CL
+      print bot detected in tile to the left
+      up
+      right
+      right
+      down
+      conditionX - 2
+    end if
+  end loop
+
+  down
+  y + 1
+
+end loop
+
+end program

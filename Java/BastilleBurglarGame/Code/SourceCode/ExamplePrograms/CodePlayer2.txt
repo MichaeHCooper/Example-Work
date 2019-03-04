@@ -1,0 +1,19 @@
+down
+down
+down
+left
+left
+left
+
+X = 0
+conditionX = 50
+
+while conditionX > X
+  idle
+  printvar X
+  X + 1
+end loop
+
+up
+
+end program
